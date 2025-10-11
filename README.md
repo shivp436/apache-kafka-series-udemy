@@ -24,6 +24,3 @@
 | Concept      | Notes - [Kafkademy](https://learn.conduktor.io/kafka/)                                   | Course Material                                                              |
 | ------------ | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Kafka Topics | [Kafka Topics CLI Tutorial](https://learn.conduktor.io/kafka/kafka-topics-cli-tutorial/) | [0-kafka-topics.sh](./__course_recourses/code/1-kafka-cli/0-kafka-topics.sh) |
-
-- [Kafka Topics - CLI](https://learn.conduktor.io/kafka/kafka-topics-cli-tutorial/)
-- [Kafka Topics - ]
