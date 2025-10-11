@@ -2,7 +2,7 @@
 
 ### Architecture
 
-![Kafka Architecture Diagram](https://medium.com/softkraft/apache-kafka-use-cases-with-kafka-architecture-diagrams-577be32688e5)
+![Kafka Architecture Diagram](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdaxg39y63pxwu.cloudfront.net%2Fimages%2Fblog%2Fapache-kafka-architecture-%2Fimage_589142173211625734253276.png&f=1&nofb=1&ipt=77ee664050be85a4fea1eb2cd66c2c6f1281eb9d45aeb8f53a68caf6b8213ce2)
 
 ## Notes
 
@@ -21,6 +21,19 @@
 
 ### Kafka CLI Notes & Code
 
-| Concept      | Notes - [Kafkademy](https://learn.conduktor.io/kafka/)                                   | Course Material                                                              |
-| ------------ | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Kafka Topics | [Kafka Topics CLI Tutorial](https://learn.conduktor.io/kafka/kafka-topics-cli-tutorial/) | [0-kafka-topics.sh](./__course_recourses/code/1-kafka-cli/0-kafka-topics.sh) |
+In this format:
+
+0. Concept  
+   a. Notes - [Kafkademy](https://learn.conduktor.io/kafka/)  
+   b. Notes by Instructor  
+   c. My Notes
+
+1. **Kafka Topics:**  
+   a. [Kafka Topics CLI Tutorial](https://learn.conduktor.io/kafka/kafka-topics-cli-tutorial/)  
+   b. [0-kafka-topics.sh](./__course_recourses/code/1-kafka-cli/0-kafka-topics.sh)  
+   c. [0-kafka-topics.sh](./__notes/0-kafka-topics.sh)
+
+2. **Kafka Producer:**  
+   a. [Kafka Producer CLI Tutorial](https://learn.conduktor.io/kafka/kafka-producer-cli-tutorial/)  
+   b. [1-kafka-console-producer.sh](./__course_recourses/code/1-kafka-cli/1-kafka-console-producer.sh)  
+   c. [1-kafka-console-producer.sh](./__notes/1-kafka-console-producer.sh)
