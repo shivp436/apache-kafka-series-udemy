@@ -1,6 +1,7 @@
 # consume from first-topic
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first-topic
 # this will only listen messages sent after consumer is started
+
 kafka-console-producer.sh --bootstrap-server localhost:9092 --topic first-topic
 # > hello world
 # > hiii

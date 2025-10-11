@@ -39,6 +39,16 @@ In this format:
    c. [1-kafka-console-producer.sh](./__notes/1-kafka-console-producer.sh)
 
 3. **Kafka Consumer:**  
-   a. [Kafka Producer CLI Tutorial](https://learn.conduktor.io/kafka/kafka-consumer-cli-tutorial/)  
+   a. [Kafka Consumer CLI Tutorial](https://learn.conduktor.io/kafka/kafka-consumer-cli-tutorial/)  
    b. [2-kafka-console-consumer.sh](./__course_recourses/code/1-kafka-cli/2-kafka-console-consumer.sh)  
    c. [2-kafka-console-consumer.sh](./__notes/2-kafka-console-consumer.sh)
+
+4. **Kafka Consumer in Groups:**  
+   a. [Kafka Consumer in Groups CLI Tutorial](https://learn.conduktor.io/kafka/kafka-consumers-in-group-cli-tutorial/)  
+   b. [3-kafka-console-consumer-in-groups.sh](./__course_recourses/code/1-kafka-cli/3-kafka-console-consumer-in-groups.sh)  
+   c. [3-kafka-console-consumer-in-groups.sh](./__notes/3-kafka-console-consumer-in-groups.sh)
+
+5. **Kafka Consumer Groups:**  
+   a. [Kafka Consumer Group Management CLI Tutorial](https://learn.conduktor.io/kafka/kafka-consumer-group-management-cli-tutorial/)  
+   b. [4-kafka-consumer-groups.sh](./__course_recourses/code/1-kafka-cli/4-kafka-consumer-groups.sh)  
+   c. [4-kafka-consumer-groups.sh](./__notes/4-kafka-consumer-groups.sh)
