@@ -37,3 +37,8 @@ In this format:
    a. [Kafka Producer CLI Tutorial](https://learn.conduktor.io/kafka/kafka-producer-cli-tutorial/)  
    b. [1-kafka-console-producer.sh](./__course_recourses/code/1-kafka-cli/1-kafka-console-producer.sh)  
    c. [1-kafka-console-producer.sh](./__notes/1-kafka-console-producer.sh)
+
+3. **Kafka Consumer:**  
+   a. [Kafka Producer CLI Tutorial](https://learn.conduktor.io/kafka/kafka-consumer-cli-tutorial/)  
+   b. [2-kafka-console-consumer.sh](./__course_recourses/code/1-kafka-cli/2-kafka-console-consumer.sh)  
+   c. [2-kafka-console-consumer.sh](./__notes/2-kafka-console-consumer.sh)
