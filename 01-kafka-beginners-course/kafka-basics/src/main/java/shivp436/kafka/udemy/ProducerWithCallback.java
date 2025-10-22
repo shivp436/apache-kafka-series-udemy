@@ -1,18 +1,16 @@
 package shivp436.kafka.udemy;
 
+import org.apache.kafka.clients.producer.Callback;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.RecordMetadata;
+import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.ProducerRecord;
-import org.apache.kafka.common.serialization.StringSerializer;
-import org.apache.kafka.clients.producer.Callback;
-import org.apache.kafka.clients.producer.RecordMetadata;
-
 import java.util.Properties;
-import java.lang.Thread;
 
-public class ProducerWithCallback{
+public class ProducerWithCallback {
 
     private static final Logger log = LoggerFactory.getLogger(ProducerWithCallback.class.getSimpleName());
 
@@ -27,6 +25,19 @@ public class ProducerWithCallback{
 
         // Create Kafka Producer
         KafkaProducer<String, String> producer = new KafkaProducer<String, String>(properties);
+
+        /*
+        Sticky Partitioner in Kafka:
+        By default, Partitioner will batch records and send them into same partition, till the batch size reaches 16kb
+        This is efficient in production environments
+
+        If Batching is disabled, and no key is given, it will follow roundrobin partition
+        If batching disabled and key given then hashing for partition
+
+        With key: always hash partitioning
+        No key + Batching: Sticky Partitioning
+        No Key + No Batching: Round Robin
+         */
 
         for (int j = 0; j < 10; j++) {
 

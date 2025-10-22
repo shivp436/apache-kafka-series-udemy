@@ -1,15 +1,14 @@
 package shivp436.kafka.udemy;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.StringSerializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
-public class Producer{
+public class Producer {
 
     private static final Logger log = LoggerFactory.getLogger(Producer.class.getSimpleName());
 
@@ -36,5 +35,12 @@ public class Producer{
 
         // flush and clean the producer
         producer.close();
+
+        /*
+         **send()** - "Send this whenever you get around to it" (lazy, async)
+         **flush()** - "Stop whatever you're doing and send EVERYTHING right now!" (urgent, blocking)
+         **close()** - "We're done here, send whatever's left and shut down" (flush + cleanup)
+         */
+
     }
 }
